@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-height: 320px;
+}
+
+.center {
+    display: block;
+    align-items: center;
+    width: 50%;
+  }
+
+  
+.glow-text {
+    text-align: center;
+    font-size: 2em; /* Adjust font size */
+    color: #5C8374;
+  }
+
+.contacts{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+@media (max-width: 575.98px) { 
+    section{
+      overflow: hidden;
+    }
+
+    p{
+      max-width:100%;
+      text-align: center;
+    }
+
+    img{
+      max-height: 100%;
+      max-width: 100%;
+    }
+}

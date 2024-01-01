@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+        rel="stylesheet"
+        />
+        <script src="./script.js">
+        </script>
+        <title>Abdur Rahman Portfolio</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button data-mdb-ripple-init type="button" class="btn btn-primary me-1" onclick="getResume()">
+                              Download Resume
+                            </button>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </header>
+            
+            <section name="about" id="about">
+                <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                    <div class="card" >
+                        <div class="container p-4">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                          <h2 class="text-uppercase">
+                            Hi,
+                            <small class="text-muted">There</small>
+                          </h2>
+
+                         <br>
+                          <h4>
+                            I'm <div class="glow-text">ABDUR RAHMAN S</div>
+                          </h4>
+                  
+                          <p>
+                            Motivated and dedicated Computer Science Student seeking a position where I can actively contribute to challenging projects, collaborate with talented professionals, and continuously learn and grow in a dynamic and evolving industry.
+                          </p>
+                          <button type="button" class="btn btn-light btn-rounded btn-lg" data-mdb-ripple-init onclick="getResume()"">Get Resume</button>
+                        </div>  
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                            <div class="d-flex justify-content-center">
+                                <img src="images\Abdur_Rahman_-removebg-preview.png" alt="Abdur Rahman Image" class="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+              <div class="card">
+                <hr class="hr hr-blurry" />
+              </div>
+              </div>
+
+            <section name="contact" id="contact">
+
+                <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                    <div class="card" >
+                        <div class="container p-4">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                          <h2 class="display-4">Contact 
+                            <small class="text-muted">Details</small>
+                          </h2>
+                          <p>
+                            Contact info with phone, email, and address for swift and reliable communication and coordination
+                          </p>
+                          <h4>
+                            Social 
+                            <small class="text-muted">Links</small>
+                          </h4>
+
+                          <a href="https://www.instagram.com/abdur_rahman_2208/"><i class="fab fa-instagram fa-2x" style="margin-right: 0.5em;"></i></a>
+                          <a href="https://github.com/AbdurRahman328"><i class="fab fa-github fa-2x" style="margin-right: 0.5em;"></i></a>
+                          <a href="https://www.linkedin.com/in/abdur-rahman-s-18b65621a/"><i class="fab fa-linkedin-in fa-2x" style="margin-right: 0.5em;"></i></a>
+                          
+                        </div> 
+                        
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center" data-mdb-theme="dark">
+                            
+                          <div class="row">
+                            <div class="col-md-auto" data-mdb-theme="dark">
+                              <i class="fas fa-envelope-open-text fa-2x"></i>&nbsp;&nbsp;abdurshakul22@gmail.com
+                            </div>
+
+                            <div class="col-md-auto" data-mdb-theme="dark">
+                              <i class="fas fa-square-phone fa-2x"></i>&nbsp;&nbsp;+91 9345719566
+                            </div>
+
+                            <div class="col-md-auto" data-mdb-theme="dark">
+                              <i class="fas fa-location-dot fa-2x"></i>&nbsp;&nbsp;7, Kayiethe Millath Street, Aruppukottai, Virudhunagar, 626101
+                            </div>
+                          </div>
+                                
+                                
+                                
+                              
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+              <div class="card">
+                <hr class="hr hr-blurry" />
+              </div>
+              </div>
+
+            <section name="skills" id="skills">
+
+              <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                <div class="card" >
+                  <div class="container p-4">
+                    <h2 class="display-4">Skills</h2>
+
+                    <h4>General Skills : </h4>
+
+                    <img src="./images/header.jpg" class="float-sm-end" style="max-height: 215px;">
+
+                    <div class="d-flex justify-content-center">
+                    <ol class="list-group list-group-dark list-group-numbered ">                    
+                      <li class="list-group-item">Team Worker</li>
+                      <li class="list-group-item">Quick Learner</li>
+                      <li class="list-group-item">Easily Adaptable to environments</li>
+                      <li class="list-group-item">Can create a comfortable learning environment</li>
+                      <li class="list-group-item">Can work under high pressure</li>
+                    </ol>
+                    </div>
+                  </br>
+
+                    <h4>Technical Skills : </h4>
+
+                    <img src="./images/pexels-luis-gomes-546819.jpg" class="float-sm-start" style="max-height: 390px;">
+
+                    <div class="d-flex justify-content-center">
+                    <ul class="list-group list-group-dark list-group-numbered">                    
+                      <li class="list-group-item">C</li>
+                      <li class="list-group-item">Java</li>
+                      <li class="list-group-item">Python</li>
+                      <li class="list-group-item">HTML</li>
+                      <li class="list-group-item">CSS</li>
+                      <li class="list-group-item">Javascript</li>
+                      <li class="list-group-item">Node.js</li>
+                      <li class="list-group-item">MongoDB</li>
+                      <li class="list-group-item">MySQL</li>
+                    </ul>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+                    
+            </section>
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+              <div class="card">
+                <hr class="hr hr-blurry" />
+              </div>
+              </div>
+
+            <section name="projects" id="projects">
+              <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                <div class="card">
+                  <div class="container text-center">
+                    <h2 class="display-4">
+                      My Works
+                    </h2>
+
+                    <p>
+                      This section showcases a range of projects I've undertaken. 
+                      These projects reflect my diverse skills and contributions across various domains.
+                    </p>
+
+                    <div class="row">
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/age-output.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Age Calculator WebApp : </h5>
+                            <p class="card-text">
+                              This is an interactive age calculator to display your age in years, months and days where it is needed to give input of birth date and it will calculate current age. 
+                              It is implemented using html,css, and javascript.
+                            </p>
+                            <br>
+                            <a href="https://github.com/AbdurRahman328/AgeCalculatorWebApp" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/select-image.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Customer Manager Relationship WebApp : 
+                            </h5>
+                            <p class="card-text">Discover streamlined customer management CRM web app with MEAN stack-powered relationship web app. 
+                              Built on the power of MongoDB, Express.js, Angular, and Node.js, our solution elevates your customer relations, empowering you to foster stronger connections and drive business growth.</p>
+                            <a href="https://github.com/AbdurRahman328/CustomerRelationshipWebApp" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/java image.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Java Projects :</h5>
+                            <p class="card-text">
+                              List of projects in this JAVA folder are Parenthesis Checker, XO Game, Number Guessing Game, Random Number Generator
+                            </p>
+                            <a href="https://github.com/AbdurRahman328/JavaProjects" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/number cricket.jpg" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Number Cricket Game : 
+                            </h5>
+                            <p class="card-text">
+                              It is a single-player game for pc and laptop based on number cricket. 
+                              It is implemented using Java and MySQL.
+                            </p>
+                            <a href="https://github.com/AbdurRahman328/handcricketgame" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                    </div>
+
+                    
+                    <div class="row">
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/ard.jpg" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Automatic Bi-Directionl Visitor Counter :</h5>
+                            <p class="card-text">Automatic Bi-Directionl Visitor Counter is used to count the number of persons entering and exiting the shop or room. 
+                              It is implemented using Arduino uno and Arduino IDE .</p>
+                              <br>
+                            <a href="https://github.com/AbdurRahman328/bi-directional-visitor-counter" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                        <div class="card">
+                          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                            <img src="./images/sports complex.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Sports Complex Management System WebApp :
+                            </h5>
+                            <p class="card-text">
+                              This web-app is used to manage activities in the sports complex such as maintaining details of staff,coaches,members and sports equipment and also able to manage events that are conducted at the sports complex. 
+                              It is implemented using html,css, javascript, nodeJS and angularJS.
+                            </p>
+                            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Get Code Now !</a>
+                          </div>
+                        </div>
+                      </div> 
+
+                    </div>
+
+
+                  </div>
+                </div>
+            </div>
+            </section>
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+              <div class="card">
+                <hr class="hr hr-blurry" />
+              </div>
+              </div>
+
+            <section name="education" id="education">
+                <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                    <div class="card" >
+                        <div class="container p-4">
+                            <h2 class="display-4">Education 
+                            </h2>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                          <h4>Secondary Education 
+                          </h4>
+                          
+                          <ul class="list-group list-group-light">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              SSLC ( 10th ) <br> Noble Matric Higher Secondary school,<br> Periyavallikulam, Virudhunagar,
+                              Tamil Nadu                                                           
+                              <span class="badge badge-primary rounded-pill">97.2%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              HSC ( 12th )<br> Noble Matric Higher Secondary school,<br> Periyavallikulam, Virudhunagar,
+                              Tamil Nadu 
+                              <span class="badge badge-primary rounded-pill">87.83%</span>
+                            </li>
+                          </ul>
+
+                        </div> 
+                        
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                            <h4>Undergraduation 
+                            </h4>
+
+                            <ul class="list-group list-group-light">
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                BACHELOR OF ENGINEERING<br>
+                                Computer Science and Engineering<br>
+                                Mepco Schlenk Engineering college,<br> Sivakasi, Tamil Nadu
+                                <span class="badge badge-primary rounded-pill">CGPA : 8.95</span>
+                              </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+              <div class="card">
+                <hr class="hr hr-blurry" />
+              </div>
+              </div>
+
+            <section name="certifications" id="certifications" > 
+              <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                <div class="card">
+                  <div class="container text-center">
+                    <h2 class="display-4">
+                      Certifications
+                    </h2>
+
+                    <p>
+                      This section will showcase the specialized courses or programs I've finished, highlighting my expertise and dedication in specific areas. 
+                      It provides a quick snapshot of my skills and knowledge in those fields.
+                    </p>
+
+                    <div class="row">
+                      <div class="col-6 col-sm-6">
+                        Data Structures and Algorithms using Python
+                        <img src="./images/data structures.jpeg" class="img-fluid rounded" alt="Data Structures and Algorithms using Python"/>
+                      </div>
+
+                      <div class="col-6 col-sm-6">Programming using C++
+                        <img src="./images/C++.jpeg" class="img-fluid rounded" alt="Programming using C++"/>
+                      </div>
+                    </div>
+                    
+                      <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="row">
+                    
+                      <div class="col-6 col-sm-6">Operating System Fundamentals
+                        <img src="./images/OS-fundamentals.jpeg" class="img-fluid rounded" alt="Operating System Fundamentals"/>
+                      </div>
+
+                      <div class="col-6 col-sm-6">Object Oriented System Development
+                        <img src="./images/OOAD.jpeg" class="img-fluid rounded" alt="Object Oriented System Development"/>
+                      </div>
+        
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </section>
+
+            <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+            <div class="card">
+              <hr class="hr hr-blurry" />
+            </div>
+            </div>
+            
+            
+            <footer>
+             
+
+                <div class="bg-body-tertiary text-center text-lg-start" data-mdb-theme="dark">
+                    <div class="card" >
+                        <div class="container p-4">
+                          
+                      <div class="row">
+                        
+                        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" data-mdb-theme="dark">
+                          <h5 class="text-uppercase">
+                            Thank You
+                          </h5>
+                  
+                          <p>
+                            Thank you for exploring my portfolio. Your visit means a lot
+                          </p>
+
+                          <button type="button" class="btn btn-dark" onclick="goToLinkedn()">Connect With Me</button>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Quick Links</h5>
+
+                            <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#about" class="text-body">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="text-body">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#skills" class="text-body">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="text-body">Projects</a>
+                            </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->          
+                    </div>
+                      <!--Grid row-->
+                </div>
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                    </div>
+                    <!-- Copyright -->
+                    </div>
+                </div>
+
+                  <div class="bg-dark text-center text-white">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                      <!-- Section: Social media -->
+                      <section class="mb-4">
+                  
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                  
+                        <!-- Linkedin -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/abdur-rahman-s-18b65621a/" role="button"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                  
+                        <!-- Github -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AbdurRahman328" role="button"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                      </section>
+                      <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+                  
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                      © 2024 Copyright:
+                      <a class="text-white" href="https://mdbootstrap.com/">Abdur Rahman</a>
+                    </div>
+                    <!-- Copyright -->
+                  </div>
+            </footer>
+</body>
+</html>
